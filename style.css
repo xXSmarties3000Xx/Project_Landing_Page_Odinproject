@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+.sectionone {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    
+    height: 400px;
+    background-color: #1F2937;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
