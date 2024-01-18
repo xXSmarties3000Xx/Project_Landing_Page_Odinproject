@@ -1,22 +1,138 @@
 * {
     margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #F9FAF8;
+}
+
 .sectionone {
     padding-top: 10px;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     flex-direction: column;
-    
-    height: 400px;
+    gap: 60px;
+    height: 450px;
     background-color: #1F2937;
-
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    
+    color: #F9FAF8;
+    gap: 18px;
+}
+
+#headerlogo {
+    font-size: 24px;
+    flex-grow: 3;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#herosecondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text-image-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.image-container{
+    width: 50%;
+    height: 200px;
+    background-color: grey;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #3882F6;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 36px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  max-width: 120px;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
