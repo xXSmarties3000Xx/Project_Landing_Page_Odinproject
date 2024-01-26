@@ -73,20 +73,13 @@ img {
     align-items: center;
 }
 
-.box1, .box2, .box3, .box4{
-    border-radius: 25px;
-    border: 4px solid #3882F6;
-    padding: 20px;
-    width: 100px;
-    height: 100px;
-}
+
 
 .sectiontwo {
     display: flex;
     flex-direction: column;
     padding: 60px 80px 60px 80px;
     gap: 60px;
-    flex-wrap: wrap;
 }
 
 .infotitle {
@@ -102,16 +95,25 @@ h2 {
 .boxes {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 .information {
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    width: 148px;
 }
 
-.information1, .information2, .information3, .information4 {
-    width: 148px;
-    text-align: center;
+.item {
+    display: flex;
+    flex-direction: column;
 }
 
 
