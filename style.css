@@ -41,14 +41,13 @@ a {
     color: #E5E7EB;
 }
 
-
-
 .text-image-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10%;
     align-items: center;
+    justify-content: center;
 }
 
 .text-container {
@@ -74,6 +73,46 @@ img {
     align-items: center;
 }
 
+.box1, .box2, .box3, .box4{
+    border-radius: 25px;
+    border: 4px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.sectiontwo {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 80px 60px 80px;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.infotitle {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information1, .information2, .information3, .information4 {
+    width: 148px;
+    text-align: center;
+}
 
 
 
